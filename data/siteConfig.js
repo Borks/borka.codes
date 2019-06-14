@@ -1,91 +1,98 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Hi! I\'m Borka!',
+  siteDescription: `Borka Martin Orlovs Resume, CV, Portfolio`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Borka Martin Orlov',
+  githubUsername: 'Borks',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Software developer who turned his hobby of coding into a job. Began programming way back in primary school.`,
   skills: [
     {
-      name: 'HTML',
+      name: 'Front-end (React, AngularJS(v1), Vue)',
       level: 70
     },
     {
-      name: 'CSS',
+      name: 'Back-end (Python/Django)',
+      level: 90
+    },
+    {
+      name: 'Cloud (Docker)',
       level: 60
     },
     {
-      name: 'Javascript',
-      level: 50
+      name: 'PHP (+ Laravel)',
+      level: 90
     },
-    {
-      name: 'NodeJs',
-      level: 40
-    },
-    {
-      name: 'React',
-      level: 60
-    },
-    {
-      name: 'Git',
-      level: 70
-    }
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: "Fieldforce Mobile Solutions OÜ",
       begin: {
-        month: 'apr',
+        month: 'JAN',
         year: '2018'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
+      duration: '2 Years',
+      occupation: "Software project lead",
+      description: "After returning from the military began leading the development team for a set of sales apps. Began using Docker and cloud technologies to provide \
+        high-availability software as a service"
+    },
+    {
+      company: "Fieldforce Mobile Solutions OÜ",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'JUN',
+        year: '2015'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
+      duration: '1 Year 6 Months',
+      occupation: "Full-stack developer",
+      description: "Was hired for a full-time full-stack developer position to develop sales-software for the nordics. Django-Angular stack."
+    },
+    {
+      company: "Fieldforce Mobile Solutions OÜ",
       begin: {
-        month: 'set',
+        month: 'MAR',
+        year: '2015'
+      },
+      duration: '3 months',
+      occupation: "Python tutor",
+      description: "Taught Python part-time for Obj-c developers."
+    },
+    {
+      company: "Viimsi primary school",
+      begin: {
+        month: 'SEPT',
+        year: '2014'
+      },
+      duration: '1 year 2 months',
+      occupation: "Python tutor",
+      description: "Taught Python part-time for primary school kids while attending Tallinn's university of technology, or TALTECH as it is known now."
+    },
+    {
+      company: "Nõo secondary school for science",
+      begin: {
+        month: 'NOV',
         year: '2012'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      duration: '2 years',
+      occupation: "Programming course",
+      description: "Started a programming course in high-school for students who were interested in learning more about programming than the default school course allowed for."
     },
-    /* ... */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    linkedin: "https://linkedin.com/in/borka-martin-orlov-7470b7156",
+    github: "https://github.com/Borks",
+    email: "borka.orlov@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://www.borka.codes',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-131359385-1',
+  googleAnalyticsId: '',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Borka Martin Orlov',
       url: '/',
     }
   ]
