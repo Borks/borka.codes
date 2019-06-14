@@ -69,6 +69,17 @@ module.exports = {
       description: "Was hired for a full-time full-stack developer position to develop sales-software for the nordics. Django-Angular stack."
     },
     {
+      company: "Tallinn",
+      begin: {
+        month: 'JUN',
+        year: '2015'
+      },
+      duration: 'Ongoing',
+      occupation: "Freelance web-developer",
+      description: "Occasionally I'll venture into a sideproject, usually to learn a new web technology. \
+        Quite like this site is to learn GatsbyJS, and www.aavikuemand.ee was to learn vue. I'll make a nicer list one day."
+    },
+    {
       company: "Fieldforce Mobile Solutions OÜ",
       begin: {
         month: 'MAR',
