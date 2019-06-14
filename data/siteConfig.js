@@ -57,7 +57,7 @@ module.exports = {
       duration: 'Ongoing',
       occupation: "Software project lead",
       description: "After returning from the military began leading the development team for a set of sales apps. Began using Docker and cloud technologies to provide \
-        high-availability software as a service"
+        high-availability software as a service. Django-React stack"
     },
     {
       company: "Fieldforce Mobile Solutions OÜ",
