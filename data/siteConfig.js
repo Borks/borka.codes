@@ -1,18 +1,23 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Borka!',
+  siteTitle: 'Borka\'s portfolio',
   siteDescription: `Borka Martin Orlovs Resume, CV, Portfolio`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Borka Martin Orlov',
   githubUsername: 'Borks',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Software developer who turned his hobby of coding into a job. Began programming way back in primary school.`,
+  authorDescription: `Software developer who turned his hobby of coding into a job. Began programming way back in primary school. \
+    I also like mountain skiing.`,
   skills: [
+    {
+      name: 'Back-end (Python+Django / NodeJS)',
+      level: 90
+    },
     {
       name: 'Front-end (React, AngularJS(v1), Vue)',
       level: 70
     },
     {
-      name: 'Back-end (Python/Django)',
+      name: 'SQL (+ SqlAlchemy)',
       level: 90
     },
     {
@@ -23,6 +28,23 @@ module.exports = {
       name: 'PHP (+ Laravel)',
       level: 90
     },
+    {
+      name: 'Objective-C',
+      level: 30
+    },
+    {
+      name: 'Java',
+      level: 30
+    },
+    {
+      name: 'Scala',
+      level: 10
+    },
+    {
+      name: 'R and Julia',
+      level: 20
+    },
+    
   ],
   jobs: [
     {
@@ -31,7 +53,7 @@ module.exports = {
         month: 'JAN',
         year: '2018'
       },
-      duration: '2 Years',
+      duration: '1 Year 6 Months',
       occupation: "Software project lead",
       description: "After returning from the military began leading the development team for a set of sales apps. Began using Docker and cloud technologies to provide \
         high-availability software as a service"
@@ -74,7 +96,8 @@ module.exports = {
       },
       duration: '2 years',
       occupation: "Programming course",
-      description: "Started a programming course in high-school for students who were interested in learning more about programming than the default school course allowed for."
+      description: "Started a programming course in high-school for students who were interested in learning more about programming \
+       than the default school course allowed for. Which after years of my departure still seems to be going on."
     },
   ],
   social: {
