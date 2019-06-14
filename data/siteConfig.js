@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Borka\'s portfolio',
   siteDescription: `Borka Martin Orlovs Resume, CV, Portfolio`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
+  keyWords: ['gatsbyjs', 'react', 'curriculum', 'CV', 'developer', 'Python', 'Django', 'Software', 'freelance', 'cloud'],
   authorName: 'Borka Martin Orlov',
   githubUsername: 'Borks',
   authorAvatar: '/images/avatar.jpeg',
