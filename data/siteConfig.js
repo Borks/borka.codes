@@ -5,7 +5,8 @@ module.exports = {
   authorName: 'Borka Martin Orlov',
   githubUsername: 'Borks',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Software developer who turned his hobby of coding into a job. Began programming way back in primary school. \
+  authorDescription: `Software developer who turned his hobby of coding into a job. Became interested in how software works way back in primary school. \
+    Do what you love, the saying goes, and you'll never work a day in your life.\
     I also like mountain skiing.`,
   skills: [
     {
@@ -53,7 +54,7 @@ module.exports = {
         month: 'JAN',
         year: '2018'
       },
-      duration: '1 Year 6 Months',
+      duration: 'Ongoing',
       occupation: "Software project lead",
       description: "After returning from the military began leading the development team for a set of sales apps. Began using Docker and cloud technologies to provide \
         high-availability software as a service"
