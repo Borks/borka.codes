@@ -171,7 +171,7 @@ module.exports = {
   siteUrl: 'https://www.borka.codes',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-79040314-3',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',

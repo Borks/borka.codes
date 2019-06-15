@@ -23,7 +23,9 @@ module.exports = {
         display: config.display,
         icon: config.icon,
       },
+
     },
+
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,
