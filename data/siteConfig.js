@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Borka\'s portfolio',
-  siteDescription: `Borka Martin Orlovs Resume, CV, Portfolio`,
+  siteDescription: `Borka Martin Orlov Resume, CV, Portfolio`,
   keyWords: ['gatsbyjs', 'react', 'curriculum', 'CV', 'developer', 'Python', 'Django', 'Software', 'freelance', 'cloud'],
   authorName: 'Borka Martin Orlov',
   githubUsername: 'Borks',
@@ -162,7 +162,6 @@ module.exports = {
         website: "https://www.taniatoday.com/"
       }
     },
-
   ],
   social: {
     linkedin: "https://linkedin.com/in/borka-martin-orlov-7470b7156",
