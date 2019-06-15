@@ -6,6 +6,10 @@ const PortfolioContainer = styled.div`
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+
+	@media only screen and (max-width: 540px) {
+		justify-content: center;
+	}
 `;
 const ProjectWrapper = styled.div`
 	display:flex;
@@ -26,18 +30,22 @@ const ProjectImage = styled.img`
 	height:120px;
 	width:auto;
 `;
+
 const DesignerLink = styled.span`
 	font-size: 0.6rem;
 	a {
 		font-style: italic;
 	}
 `;
+
 const ProjectName = styled.h4`
 	height: 30px;
 `;
+
 const Description = styled.span`
 	font-size: 0.9rem;
 `;
+
 const ProjectTags = styled.div`
 	font-size: 0.6rem;
 
@@ -64,7 +72,9 @@ class Portfolio extends React.Component {
 								<ProjectImage src={project.image} alt={project.name}/>
 							</a>
 							{project.designer ?
-								<DesignerLink>Designed by: <a href={project.designer.website || "#"}>{project.designer.name}</a></DesignerLink> :
+								<DesignerLink>Designed by:
+									<a href={project.designer.website || "#"}>{project.designer.name}</a>
+								</DesignerLink> :
 								<DesignerLink>&nbsp;</DesignerLink>
 							}
 							<ProjectName>{project.name}</ProjectName>

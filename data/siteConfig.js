@@ -34,12 +34,8 @@ module.exports = {
       level: 30
     },
     {
-      name: 'Java',
+      name: 'Java (+ Scala)',
       level: 30
-    },
-    {
-      name: 'Scala',
-      level: 10
     },
     {
       name: 'R and Julia',
