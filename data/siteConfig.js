@@ -5,9 +5,9 @@ module.exports = {
   authorName: 'Borka Martin Orlov',
   githubUsername: 'Borks',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Software developer who turned his hobby of coding into a job. Became interested in how software works way back in primary school. \
-    Do what you love, the saying goes, and you'll never work a day in your life.\
-    I also like mountain skiing.`,
+  authorDescription: `Software developer who turned his hobby of coding into a job. Became interested in how software works way back in primary school. ` +
+    `Do what you love, the saying goes, and you'll never work a day in your life. ` +
+    `I also like mountain skiing.`,
   skills: [
     {
       name: 'Back-end (Python+Django / NodeJS)',
@@ -45,7 +45,11 @@ module.exports = {
       name: 'R and Julia',
       level: 20
     },
-    
+    {
+      name: 'GatsbyJS',
+      level: 20
+    },
+
   ],
   jobs: [
     {
@@ -56,8 +60,8 @@ module.exports = {
       },
       duration: 'Ongoing',
       occupation: "Software project lead",
-      description: "After returning from the military began leading the development team for a set of sales apps. Began using Docker and cloud technologies to provide \
-        high-availability software as a service. Django-React stack"
+      description: "After returning from the military began leading the development team for a set of sales apps. Began using Docker and cloud technologies to provide " +
+        "high-availability software as a service. Django-React stack"
     },
     {
       company: "Fieldforce Mobile Solutions OÜ",
@@ -77,8 +81,8 @@ module.exports = {
       },
       duration: 'Ongoing',
       occupation: "Freelance web-developer",
-      description: "Occasionally I'll venture into a sideproject, usually to learn a new web technology. \
-        Quite like this site is to learn GatsbyJS, and www.aavikuemand.ee was to learn vue. I'll make a nicer list one day."
+      description: "Occasionally I'll venture into a sideproject, usually to learn a new web technology. " +
+        "Quite like this site is to learn GatsbyJS, and www.aavikuemand.ee was to learn vue. I'll make a nicer list one day."
     },
     {
       company: "Fieldforce Mobile Solutions OÜ",
@@ -108,9 +112,61 @@ module.exports = {
       },
       duration: '2 years',
       occupation: "Programming course",
-      description: "Started a programming course in high-school for students who were interested in learning more about programming \
-       than the default school course allowed for. Which after years of my departure still seems to be going on."
+      description: "Started a programming course in high-school for students who were interested in learning more about programming " +
+       "than the default school course allowed for. Which after years of my departure still seems to be going on."
     },
+  ],
+  portfolio: [
+    {
+      name: 'Starlaw Films website',
+      url: 'https://starlawfilms.ee',
+      image: '/images/starlaw.png',
+      description: 'UPCOMING: Website for Starlaw Films',
+      stack: ['GatsbyJS'],
+      designer: {
+        name: "Michaela Engström",
+      }
+    },
+    {
+      name: 'Personal portfolio',
+      url: 'https://borka.codes',
+      image: '/images/portfolio.png',
+      description: 'Well the website you\'re seeing here. Projects sections designed by me, somehow. ',
+      stack: ['GatsbyJS', 'Open Source'],
+      designer: {
+        name: "santosfrancisco",
+        website: "https://github.com/santosfrancisco/gatsby-starter-cv"
+      }
+    },
+    {
+      name: 'Blog post: HAProxy as a gateway to the cloud',
+      url: 'https://blog.pilw.io/extending-your-existing-computing-stack-with-the-cloud/',
+      image: '/images/casestudy.png',
+      description: 'Wrote a blog post detailing how to turn HAProxy into a gateway to cloud infrastructure from your legacy stack'
+    },
+    {
+      name: 'Administrative panel for sales software',
+      url: 'http://www.fieldforce.com',
+      image: '/images/fieldforce.jpg',
+      description: 'Web app with extensive functionality controlling an entire sales software ecosystem',
+      stack: ['AngularJS', 'React', 'Django'],
+      designer: {
+        name: "Tatjana Domnina",
+        website: "https://www.taniatoday.com/"
+      }
+    },
+    {
+      name: 'Aavikuemand UÜ eCommerce platform',
+      url: 'https://aavikuemand.ee',
+      image: '/images/aavikuemand.PNG',
+      description: 'Web shop for a local business',
+      stack: ['VueJS', 'Laravel'],
+      designer: {
+        name: "Tatjana Domnina",
+        website: "https://www.taniatoday.com/"
+      }
+    },
+
   ],
   social: {
     linkedin: "https://linkedin.com/in/borka-martin-orlov-7470b7156",

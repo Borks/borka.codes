@@ -12,6 +12,7 @@ import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
+import Portfolio from '../components/portfolio';
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -67,6 +68,8 @@ class Home extends React.Component {
                 <Skills title='Skills' skills={siteConfig.skills} />
               </Col>
             </Row>
+            <Separator />
+            <Portfolio />
             <Separator />
             <Timeline />
             <Separator />
