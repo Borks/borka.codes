@@ -12,6 +12,7 @@ export default function Subscribe() {
 
             <form name='contact' method='POST' data-netlify="true">
               <div className='form-group row'>
+                <input type='hidden' name='form-name' value='contact'></input>
                 <input
                   type="email"
                   name='email'
