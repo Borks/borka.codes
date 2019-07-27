@@ -45,7 +45,7 @@ footer {
 
 .masthead {
   h1.my-0 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -55,7 +55,7 @@ footer {
 
 .skills-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 50px;
@@ -71,9 +71,4 @@ footer {
 .upright-container {
   display: flex;
   flex-direction: column;
-}
-
-.bracket-image {
-  width: 80%;
-  height: 40px;
 }
