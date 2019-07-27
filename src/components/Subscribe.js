@@ -10,7 +10,7 @@ export default function Subscribe() {
             <h2 className="text-white mb-5">Send me a message</h2>
             <p><i>PS: That's not me on the pictures, not yet.</i></p>
 
-            <form name='contact' method='POST' netlify>
+            <form name='contact' method='POST' data-netlify="true">
               <div className='form-group row'>
                 <input
                   type="email"
