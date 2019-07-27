@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import arrow from '../assets/images/arrow.png';
 import bracket from '../assets/images/bracket.png';
@@ -14,44 +15,126 @@ import scala_logo from '../assets/images/scala-logo.png';
 import vuejs_logo from '../assets/images/vuejs-logo.png';
 import angular_logo from '../assets/images/angular-logo.png';
 
+const SkillSection = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: rgba(255, 255, 255, 0.5);
+	text-align: left
+
+	div {
+		width: 300px;
+		margin-bottom: 50px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+
+
+
+		img {
+			margin: 15px;
+		}
+
+		ul > li{
+			list-style-type: none;
+			font-style: italic;
+		}
+	}
+	.list {
+		display:flex;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+`;
 class Skills extends React.Component {
 	render() {
 		return (
 			<section id="about" className="about-section text-center">
 				<div className="container">
 					<div className="row">
-					<div className="col-lg-8 mx-auto">
-						<h2 className="text-white mb-4">End-to-end software solutions</h2>
-						<p className="text-white-50">
-							Text here
-						</p>
+						<div className="col-lg-8 mx-auto">
+							<h2 className="text-white mb-4">End-to-end software solutions</h2>
+							<p className="text-white-50">
+								Text here
+							</p>
+						</div>
 					</div>
 				</div>
 
-				<div className='skills-container'>
-					<img src={db_logo} className="img-fluid about-skills-image" alt="" />
-					<img src={arrow} className="img-fluid about-skills-image arrow" alt="" />
-				<div class='upright-container'>
-					<img src={django_logo} className="img-fluid about-skills-image" alt="" />
-					<img src={python_logo} className="img-fluid about-skills-image" alt="" />
-				</div>
-				<div class='upright-container'>
-					<img src={laravel_logo} className="img-fluid about-skills-image" alt="" />
-					<img src={nodejs_logo} className="img-fluid about-skills-image" alt="" />
-				</div>
-					<img src={scala_logo} className="img-fluid about-skills-image" alt="" />
-					<img src={arrow} className="img-fluid about-skills-image arrow" alt="" />
-					<img src={vuejs_logo} className="img-fluid about-skills-image" alt="" />
-					<img src={react_logo} className="img-fluid about-skills-image" alt="" />
-					<img src={angular_logo} className="img-fluid about-skills-image" alt="" />
-					<img src={gatsbyjs_logo} className="img-fluid about-skills-image" alt="" />
-				</div>
-				<div>
-				<img src={bracket} className="img-fluid about-skills-image bracket-image" alt="" />
-				</div>
-					<img src={docker_logo} className="img-fluid about-skills-image" alt="" />
-				</div>
-		  </section>
+				<SkillSection>
+					<div >
+						<img src={db_logo} className="img-fluid about-skills-image" alt="" />
+					</div>
+
+					<div className='list'>
+						<ul>
+							<li>Data Modeling</li>
+							<li>Data storage configuration</li>
+							<li>Automated backups and disaster recovery processes</li>
+						</ul>
+					</div>
+				</SkillSection>
+
+				<SkillSection>
+					<div>
+						<img src={arrow} className="img-fluid about-skills-image" alt="" />
+					</div>
+
+					<div className='list'>
+						<ul>
+							<li>High load software design</li>
+						</ul>
+					</div>
+				</SkillSection>
+
+				<SkillSection>
+					<div>
+						<img src={python_logo} className="img-fluid about-skills-image" alt="" />
+						<img src={django_logo} className="img-fluid about-skills-image" alt="" />
+						<img src={laravel_logo} className="img-fluid about-skills-image" alt="" />
+						<img src={nodejs_logo} className="img-fluid about-skills-image" alt="" />
+						<img src={scala_logo} className="img-fluid about-skills-image" alt="" />
+					</div>
+
+					<div className='list'>
+						<ul>
+							<li>Scalable serverside services</li>
+							<li>Reusable code patterns</li>
+						</ul>
+					</div>
+				</SkillSection>
+
+
+				<SkillSection>
+					<div>
+						<img src={arrow} className="img-fluid about-skills-image" alt="" />
+					</div>
+
+					<div className='list'>
+						<ul>
+							<li>Easily understandable API design</li>
+						</ul>
+					</div>
+				</SkillSection>
+
+				<SkillSection>
+					<div>
+						<img src={vuejs_logo} className="img-fluid about-skills-image" alt="" />
+						<img src={angular_logo} className="img-fluid about-skills-image" alt="" />
+						<img src={react_logo} className="img-fluid about-skills-image" alt="" />
+						<img src={gatsbyjs_logo} className="img-fluid about-skills-image" alt="" />
+					</div>
+
+					<div className='list'>
+						<ul>
+							<li>I suck at graphic design, but I'm pretty good at following it.</li>
+						</ul>
+					</div>
+				</SkillSection>
+
+		  	</section>
 		)
 	}
 }
