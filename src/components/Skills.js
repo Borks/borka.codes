@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 import arrow from '../assets/images/arrow.png';
-import bracket from '../assets/images/bracket.png';
 import db_logo from '../assets/images/db-logo.png';
 import django_logo from '../assets/images/django-logo.png';
 import docker_logo from '../assets/images/docker-logo.png';
@@ -14,6 +13,7 @@ import react_logo from '../assets/images/react-logo.png';
 import scala_logo from '../assets/images/scala-logo.png';
 import vuejs_logo from '../assets/images/vuejs-logo.png';
 import angular_logo from '../assets/images/angular-logo.png';
+import sphinx_logo from '../assets/images/sphinx-logo.png';
 
 const SkillSection = styled.div`
 	display: flex;
@@ -97,12 +97,14 @@ class Skills extends React.Component {
 						<img src={laravel_logo} className="img-fluid about-skills-image" alt="" />
 						<img src={nodejs_logo} className="img-fluid about-skills-image" alt="" />
 						<img src={scala_logo} className="img-fluid about-skills-image" alt="" />
+						<img src={sphinx_logo} className="img-fluid about-skills-image" alt="" />
 					</div>
 
 					<div className='list'>
 						<ul>
 							<li>Scalable serverside services</li>
 							<li>Reusable code patterns</li>
+							<li>Writing self-documenting code</li>
 						</ul>
 					</div>
 				</SkillSection>

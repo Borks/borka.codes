@@ -10,17 +10,18 @@ export default function Subscribe() {
             <h2 className="text-white mb-5">Send me a message</h2>
             <p><i>PS: That's not me on the pictures, not yet.</i></p>
 
-            <form>
+            <form name='contact' method='POST' netlify>
               <div className='form-group row'>
                 <input
                   type="email"
+                  name='email'
                   className="form-control "
                   id="inputEmail"
                   placeholder="Your email address"
                 />
               </div>
               <div className='form-group row'>
-                <textarea rows='3' className='form-control flex-fill'>
+                <textarea rows='3' name='message' className='form-control flex-fill'>
                 </textarea>
               </div>
 
