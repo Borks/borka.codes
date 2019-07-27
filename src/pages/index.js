@@ -22,9 +22,10 @@ import scala_logo from '../assets/images/scala-logo.png';
 import vuejs_logo from '../assets/images/vuejs-logo.png';
 import angular_logo from '../assets/images/angular-logo.png';
 
-import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+import ffone from '../assets/images/ffone.jpg';
+import aavikuemand from '../assets/images/aavikuemand.png';
+import starlawfilms from '../assets/images/starlawfilms.png';
 
 const IndexPage = () => (
   <Layout>
@@ -81,15 +82,14 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={ffone} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>Fieldforce One: Backoffice</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+                Large scale administrative backend for Fast Moving
+                Consumer Goods (FMCG) sales software.
               </p>
             </div>
           </div>
@@ -97,16 +97,15 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={aavikuemand} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Aavikuemand eCommerce platform</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    Webshop
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -117,17 +116,15 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={starlawfilms} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Starlaw Films</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
