@@ -46,6 +46,7 @@ const SkillSection = styled.div`
 		display:flex;
 		flex-direction: row;
 		justify-content: flex-start;
+		height: 100px;
 	}
 `;
 class Skills extends React.Component {
@@ -57,7 +58,7 @@ class Skills extends React.Component {
 						<div className="col-lg-8 mx-auto">
 							<h2 className="text-white mb-4">End-to-end software solutions</h2>
 							<p className="text-white-50">
-								Text here
+								Skills aquired working in the FMCG industry
 							</p>
 						</div>
 					</div>
@@ -114,7 +115,7 @@ class Skills extends React.Component {
 
 					<div className='list'>
 						<ul>
-							<li>Easily understandable API design</li>
+							<li>API design following best practices</li>
 						</ul>
 					</div>
 				</SkillSection>
@@ -129,7 +130,7 @@ class Skills extends React.Component {
 
 					<div className='list'>
 						<ul>
-							<li>I suck at graphic design, but I'm pretty good at following it.</li>
+							<li>I'm terrible at web design, but I'm ok at following it.</li>
 						</ul>
 					</div>
 				</SkillSection>
