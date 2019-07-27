@@ -22,10 +22,10 @@ import scala_logo from '../assets/images/scala-logo.png';
 import vuejs_logo from '../assets/images/vuejs-logo.png';
 import angular_logo from '../assets/images/angular-logo.png';
 
-import demoImage2 from '../assets/images/demo-image-02.jpg';
 import ffone from '../assets/images/ffone.jpg';
 import aavikuemand from '../assets/images/aavikuemand.png';
 import starlawfilms from '../assets/images/starlawfilms.png';
+import portfolio from '../assets/images/portfolio.png';
 
 const IndexPage = () => (
   <Layout>
@@ -132,6 +132,27 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+
+
+        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={portfolio} alt="" />
+          </div>
+          <div className="col-lg-6">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 className="text-white">Personal website</h4>
+                  <p className="mb-0 text-white-50">
+                    Based on a GatsbyJS template
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 

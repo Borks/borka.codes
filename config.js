@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Borka Martin Orlov',
-  subHeading: 'Full time software developer. Code enthusiast.',
+  subHeading: 'Full-stack software developer. Code enthusiast.',
 
   // social
   socialLinks: [
