@@ -44,6 +44,15 @@ const IndexPage = () => (
                 Large scale administrative backend for Fast Moving
                 Consumer Goods (FMCG) sales software.
               </p>
+
+              <div className='project-tech'>
+                <span class="badge badge-secondary">Python</span>
+                <span class="badge badge-secondary">React</span>
+                <span class="badge badge-secondary">Sphinx docs</span>
+                <span class="badge badge-secondary">MSSQL/PostgreSQL</span>
+                <span class="badge badge-secondary">Docker</span>
+              </div>
+
             </div>
           </div>
         </div>
@@ -56,11 +65,19 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Aavikuemand eCommerce platform</h4>
+                  <h4 className="text-white">Aavikuemand Webshop</h4>
                   <p className="mb-0 text-white-50">
-                    Webshop
+                    A fully functional eCommerce platform built from the ground up as a learning project.
+                  </p>
+                  <p className="mb-0 text-white-50">
+                    Design by: <a href='https://www.taniatoday.com/'>Tatjana Domnina</a>
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
+
+                  <div className='project-tech'>
+                    <span class="badge badge-secondary">Laravel</span>
+                    <span class="badge badge-secondary">VueJS</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -77,9 +94,16 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Starlaw Films</h4>
                   <p className="mb-0 text-white-50">
-
+                    Website for a local movie company
+                  </p>
+                  <p className="mb-0 text-white-50">
+                    Design by: Michaela Engström
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
+                  <div className='project-tech'>
+                    <span class="badge badge-secondary">GatsbyJS</span>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -97,9 +121,13 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white">Personal website</h4>
                   <p className="mb-0 text-white-50">
-                    Based on a GatsbyJS template
+                    Might aswell
+                  </p>
+                  <p className="mb-0 text-white-50">
+                    GatsbyJS template by: <a href='https://github.com/anubhavsrivastava'>Anubhav Srivastava</a>
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
+                  <span class="badge badge-secondary">GatsbyJS</span>
                 </div>
               </div>
             </div>
