@@ -33,6 +33,8 @@ const IndexPage = () => (
 
     <section id="projects" className="projects-section bg-light">
       <div className="container">
+      <h2>Back-end stuff</h2>
+      <hr></hr>
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={ffone} alt="" />
@@ -57,6 +59,8 @@ const IndexPage = () => (
           </div>
         </div>
 
+        <h2>Front-end stuff</h2>
+        <hr></hr>
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
             <img className="img-fluid" src={aavikuemand} alt="" />
@@ -70,14 +74,17 @@ const IndexPage = () => (
                     A fully functional eCommerce platform built from the ground up as a learning project.
                   </p>
                   <p className="mb-0 text-white-50">
-                    Design by: <a href='https://www.taniatoday.com/'>Tatjana Domnina</a>
+                    Design by: <a href='https://www.taniatoday.com/'>Tatjana Domnina</a> <br />
+                    <a href='https://aavikuemand.ee'>Go to website</a>
                   </p>
+
                   <hr className="d-none d-lg-block mb-0 ml-0" />
 
                   <div className='project-tech'>
                     <span class="badge badge-secondary">Laravel</span>
                     <span class="badge badge-secondary">VueJS</span>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -97,7 +104,8 @@ const IndexPage = () => (
                     Website for a local movie company
                   </p>
                   <p className="mb-0 text-white-50">
-                    Design by: Michaela Engström
+                    Design by: Michaela Engström <br/>
+                    <a href='https://starlawfilms.com'>Go to website</a>
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                   <div className='project-tech'>
