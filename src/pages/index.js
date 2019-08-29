@@ -48,11 +48,11 @@ const IndexPage = () => (
               </p>
 
               <div className='project-tech'>
-                <span class="badge badge-secondary">Python</span>
-                <span class="badge badge-secondary">React</span>
-                <span class="badge badge-secondary">Sphinx docs</span>
-                <span class="badge badge-secondary">MSSQL/PostgreSQL</span>
-                <span class="badge badge-secondary">Docker</span>
+                <span className="badge badge-secondary">Python</span>
+                <span className="badge badge-secondary">React</span>
+                <span className="badge badge-secondary">Sphinx docs</span>
+                <span className="badge badge-secondary">MSSQL/PostgreSQL</span>
+                <span className="badge badge-secondary">Docker</span>
               </div>
 
             </div>
@@ -81,8 +81,8 @@ const IndexPage = () => (
                   <hr className="d-none d-lg-block mb-0 ml-0" />
 
                   <div className='project-tech'>
-                    <span class="badge badge-secondary">Laravel</span>
-                    <span class="badge badge-secondary">VueJS</span>
+                    <span className="badge badge-secondary">Laravel</span>
+                    <span className="badge badge-secondary">VueJS</span>
                   </div>
 
                 </div>
@@ -109,7 +109,7 @@ const IndexPage = () => (
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                   <div className='project-tech'>
-                    <span class="badge badge-secondary">GatsbyJS</span>
+                    <span className="badge badge-secondary">GatsbyJS</span>
                   </div>
 
                 </div>
@@ -135,7 +135,7 @@ const IndexPage = () => (
                     GatsbyJS template by: <a href='https://github.com/anubhavsrivastava'>Anubhav Srivastava</a>
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
-                  <span class="badge badge-secondary">GatsbyJS</span>
+                  <span className="badge badge-secondary">GatsbyJS</span>
                 </div>
               </div>
             </div>
